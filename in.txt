@@ -1,0 +1,16 @@
+START
+    a:INT;
+    b:INT;
+    c:INT;
+END
+BEGIN
+    READ(b);
+    READ(c);
+    a = 2 * b + c;
+    WRITE(a);
+    IF a >= 0 THEN
+        WRITE('pozitiv');
+    ELSE
+        WRITE('negativ');
+    ENDIF
+END
